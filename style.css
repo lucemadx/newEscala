@@ -1,0 +1,38 @@
+#left
+{
+	float:left;
+	width:33.33%;
+	text-align:center;
+}
+#right
+{
+	float:left;
+	width:33.33%;
+	text-align:center;
+	display:none;
+}
+
+h1
+{
+	text-align:center;
+}
+
+h2
+{
+	margin:0;
+}
+
+#escala, #funcPosto
+{
+	margin:auto;
+}
+
+#postos, #funcionarios
+{
+	resize:none;
+}
+
+input[type="button"]
+{
+	margin-top:15px;
+}

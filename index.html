@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>
+		EPA - Escala de Postos Automatizada
+	</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<h1> EPA - Escala de Postos Automatizada </h1>
+	<div id="left">
+		<div>
+			<p>Nomes de funcionários</p>
+			<textarea id="funcionarios" rows="10">a
+b
+c
+d
+e
+f
+g
+h
+i
+j</textarea>
+		</div>
+		<div>
+			<p>Nomes dos postos</p>
+			<textarea id="postos" rows="10">1
+2
+3
+4
+5
+6
+7
+8</textarea>
+		</div>
+		<div>
+			<input type="button" value="Gerar Equipe" onclick="gerarEquipe()" />
+		</div>
+	</div>
+	<div id="right">
+		<table id="escala" border="1">
+		</table>
+		<table id="funcPosto" border="1">
+		</table>
+		<div>
+			<input type="button" value="Gerar Planilha" onclick="init()"/>
+		</div>
+	</div>
+</body>
+<meta charset="UTF-8">
+<script src = "script.js"></script>
+</html>
