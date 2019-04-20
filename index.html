@@ -47,9 +47,9 @@ h2
 }
 #diaDiaTambem
 {
-	clear:left;
-	width: 100%;
+	clear:both;
 	text-align:left;
+	background:white;
 }
 
 #postos, #funcionarios
@@ -482,6 +482,7 @@ function maisUm()
 	
 	if(numMaisUm ==0)
 	{
+		stringObj+="<tr><th colspan='3'>Obs.: campos vazios sobrescrevem folga do dia informado</th></tr>";
 		stringObj+="<tr><th>Nome</th><th>Dia de Alteração</th><th>Descrição</th></tr>";
 	}
 	stringObj += "<tr><td><select id= 'selDir"+numMaisUm+"'>";
